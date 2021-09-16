@@ -1,0 +1,96 @@
+header{
+    background: linear-gradient(#323333, #2a2b2b);
+    overflow: hidden;
+    padding: 5rem 0 3rem;
+    text-align: center;
+}
+/* .logo{
+    background: white;
+    border-radius: 15%;
+    padding: 2px;
+} */
+h1{
+    font-size: 2em;
+    margin: .67em 0;
+    color: white;
+}
+hr{
+    width: 30%;
+    background: #00bdd6; 
+}
+
+h2{
+    letter-spacing: .3rem;
+    color: #00bdd6;
+}
+
+/* 
+navbar */
+#nav{
+    background: #00bdd6;
+    box-shadow: 0 0 10px 1px #4b4c4d;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+a{
+    color: white;
+}
+/*main */
+/* main{
+    background: #ebf3f5;
+} */
+/*section protafolio */
+#Portafolio{
+    text-align: center;
+}
+.title_portafolio{
+    color: #00bdd6;
+    font-size: 3rem;
+}
+
+/*section heramientas */
+#Herramientas{
+    background: #00bdd6;
+    text-align: center;
+    padding: 2px;
+}
+.title_herramienta{
+    color: white;
+    font-size: 3rem;
+}
+
+.herr{
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+}
+
+/* section contactos */
+#Contactos{
+    text-align: center;
+}
+.title_conctactos{
+    color: #00bdd6;
+    font-size: 3rem;
+}
+.cont{
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+}
+
+/* footer */
+
+footer{
+    background: linear-gradient(#323333, #2a2b2b);
+    padding: 2rem 0;
+    text-align: center;
+}
+.pie{
+    color: white;
+}
